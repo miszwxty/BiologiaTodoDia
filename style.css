@@ -1,0 +1,83 @@
+/* Estilos Gerais */
+body {
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(201, 189, 165);
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: darkolivegreen;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer a {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+  
